@@ -23,6 +23,7 @@ app.post('/thankyou', (req, res) =>{
         email: req.body.email,
         flavor: req.body.flavor,
         cone: req.body.cone,
+        toppings: req.body.toppings
     }
 
     console.log(req.body);
