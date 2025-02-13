@@ -8,7 +8,7 @@ const PORT = 3000;
 
 const orders = [];
 
-app.use(express.urelencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 
 app.set('view engine', 'ejs');
 
