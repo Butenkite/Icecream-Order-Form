@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #BCD8C1;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color :#422040;
+    font-weight: 600;
+    font-size: 3.5em;
+    font-family: sans-serif;
+}
+
+h3{
+    color :#422040;
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 200px;
+    float: right;
+}
+
+#main{
+    background-color: #D6DBB2;
+    width: 70%;
+    margin: 0 auto 1rem auto;
+    padding: 1em;
+}
+
+#contact-button, button{
+    border: none;
+    background-color: #422040;
+    border-color: #422040;
+    padding: .5rem .75rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+}
+
+input{
+    margin-top: 0.5em;
+}
+
+
+
+legend{
+    text-align: center;
+}
