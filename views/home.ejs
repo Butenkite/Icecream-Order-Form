@@ -6,8 +6,34 @@
     <title>Document</title>
 </head>
 <body>
-    <fieldset>
-        <h1>Ice Cream Order Form</h1>
-    </fieldset>
+    <h1>Ice Cream Order Form</h1>
+    <form action="thankyou" method="post"></form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Name: 
+                <input type="text" name="name">
+            </label>
+
+            <label>Email: 
+                <input type="text" name="email">
+            </label>    
+        </fieldset>    
+
+        <fieldset>
+            <legend>Order Details</legend>
+            <label>Choose your flavor: 
+                <select name="flavor">
+                    <option>Select</option>
+                    <option>Vanilla</option>
+                    <option>Chocolate</option>
+                    <option>Vanilla</option>
+                </select>
+            </label>
+
+            <label>Choose your cone:
+                
+            </label>
+        </fieldset>
+    </form>
 </body>
 </html>
