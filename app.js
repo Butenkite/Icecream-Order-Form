@@ -16,6 +16,10 @@ app.get('/', (req, res) =>{
     res.render('home');
 });
 
+app.post('/thankyou', (req, res) =>{
+    res.render('thankyou');
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
 });
